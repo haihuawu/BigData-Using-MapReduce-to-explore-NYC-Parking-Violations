@@ -1,0 +1,6 @@
+1. When processing task like task6, I met some data quality issue like there are symbol double quotes in the items which will cause the program to get wrong data 
+   while splitting data according to comma because there are comma between the double quotes.
+   For example:
+   7009899708,2016-03-24,64,NY,"64-No STD Ex Con/DPL, D/S Dec",19,19,0122P,,,361349,T103,19,T,GFCHEF,SRF,NY,Park Ave,SUBN,BK,FORD,2014
+
+2. In some other tasks like task8, there are some items got is None, after comparing the result via script provided, these datas should be processed.  
